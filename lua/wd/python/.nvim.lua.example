@@ -1,0 +1,4 @@
+vim.g.python_entries = 
+{
+    { name = "Main app", path = "main.py" },
+}
