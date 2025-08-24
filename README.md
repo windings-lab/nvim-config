@@ -1,3 +1,4 @@
+```
 Initializing loggers
 Initializing wd module
   Configs
@@ -20,3 +21,4 @@ Initializing lazy.nvim packet manager
     saghen/blink.cmp
     rcarriga/nvim-dap-ui
     nvim-tree/nvim-web-devicons
+```
