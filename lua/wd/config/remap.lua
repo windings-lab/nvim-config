@@ -3,10 +3,7 @@ vim.g.mapleader = "\\"
 
 tree_log("netrw(File manager): <leader>fm")
 vim.keymap.set("n", "<leader>fm", function()
-    local bufname = vim.api.nvim_buf_get_name(0)
-    if bufname ~= "" then
-        vim.cmd("write")
-    end
+    vim.cmd("update")
     vim.cmd("Ex")
 end, { desc = "netrw(File manager)" })
 

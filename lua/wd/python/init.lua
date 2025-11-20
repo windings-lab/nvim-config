@@ -1,4 +1,4 @@
--- keymap: <leader>ipp = init project
+ tree_log("<leader>ipp: init python project(Not finished")
 vim.keymap.set("n", "<leader>ipp", function()
   -- path to your template
   local template = vim.fn.stdpath("config") .. "/lua/wd/python/.nvim.lua.example"
